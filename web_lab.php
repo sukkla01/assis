@@ -110,7 +110,7 @@ $result = mysqli_query($objCon, $sql);
                 </table>
                 <?php  }else{ ?>
                 <div style="text-align: center; width: 100%;height: 50px;">
-                    <div style="margin-top: 15px">ไม่มีการตรวจ lab </div>
+                    <div style="margin-top: 15px">ไม่มีการตรวจ lab -- </div>
                 </div>
                 <?php  } ?>
                  
