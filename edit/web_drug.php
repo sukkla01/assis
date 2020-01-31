@@ -16,7 +16,7 @@ FROM
 INNER JOIN drugitems n ON n.icode = o.icode
 LEFT JOIN drugusage d on d.drugusage = n.drugusage
 WHERE
-vn = '630129080652'
+vn = '$vn'
 ORDER BY
 	o.icode";
 ?>
